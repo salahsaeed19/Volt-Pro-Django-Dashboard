@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<!-- saved from url=(0071)https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html -->
+<html lang="en">
+<script id="allow-copy_script"
+    src="chrome-extension://aefehdhdciieocakfobpaaolhipkcpgc/content_scripts/copy.js"></script>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <title>
+        Volt Pro Django - Invoice | AppSeed
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Volt - Premium Bootstrap 5 Dashboard">
+    <meta name="author" content="Themesberg">
+    <meta name="description"
+        content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
+    <meta name="keywords"
+        content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, themesberg, themesberg dashboard, themesberg admin dashboard">
+    <link rel="canonical" href="https://themesberg.com/product/django/volt-admin-dashboard-pro">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://demo.themesberg.com/volt-pro">
+    <meta property="og:title" content="Volt - Premium Bootstrap 5 Dashboard">
+    <meta property="og:description"
+        content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
+    <meta property="og:image"
+        content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-pro-bootstrap-5-dashboard/volt-pro-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://demo.themesberg.com/volt-pro">
+    <meta property="twitter:title" content="Volt - Premium Bootstrap 5 Dashboard">
+    <meta property="twitter:description"
+        content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
+    <meta property="twitter:image"
+        content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-pro-bootstrap-5-dashboard/volt-pro-preview.jpg">
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/site.webmanifest">
+    <link rel="mask-icon"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/safari-pinned-tab.svg"
+        color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link type="text/css" href="./css/all.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/all.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/sweetalert2.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/notyf.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/main.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/dropzone.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/choices.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/leaflet.css" rel="stylesheet">
+    <link type="text/css" href="./css/volt.css" rel="stylesheet">
+    <link rel="text/css" href="./css/style.css" rel="stylesheet">
+    
+    <script src="chrome-extension://hmdmhilocobgohohpdpolmibjklfgkbi/pageScript.js"></script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1217.0" data-gr-ext-installed="">
+
+    <nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-md-none">
+        <a class="navbar-brand me-lg-5" href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/">
+            <img class="navbar-brand-dark" src="./Volt Pro Django - Invoice _ AppSeed_files/light.svg" alt="Volt logo">
+            <img class="navbar-brand-light" src="./Volt Pro Django - Invoice _ AppSeed_files/dark.svg" alt="Volt logo">
+        </a>
+        <div class="d-flex align-items-center">
+            <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <nav id="sidebarMenu" class="sidebar d-md-block bg-dark text-white collapse simplebar-scrollable-y"
+        data-simplebar="init">
+        <div class="simplebar-wrapper" style="margin: 0px;">
+            <div class="simplebar-height-auto-observer-wrapper">
+                <div class="simplebar-height-auto-observer"></div>
+            </div>
+            <div class="simplebar-mask">
+                <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                    <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                        <div class="simplebar-content" style="padding: 0px;">
+                            <div class="sidebar-inner px-4 pt-3">
+                                <div
+                                    class="user-card d-flex d-md-none align-items-center justify-content-between justify-content-md-center pb-4">
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-avatar lg-avatar me-4">
+                                            <img src="./Volt Pro Django - Invoice _ AppSeed_files/profile-picture-3.jpg"
+                                                class="card-img-top rounded-circle border-white" alt="Bonnie Green">
+                                        </div>
+                                        <div class="d-block">
+                                            <h2 class="h6">Hi, test</h2>
+                                            <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/logout/"
+                                                class="btn btn-secondary text-dark btn-xs">
+                                                <span class="me-2"><span class="fas fa-sign-out-alt"></span></span>Sign
+                                                Out</a>
+                                        </div>
+                                    </div>
+                                    <div class="collapse-close d-md-none">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#sidebarMenu"
+                                            class="fas fa-times" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"
+                                            aria-controls="sidebarMenu" aria-expanded="true"
+                                            aria-label="Toggle navigation"></a>
+                                    </div>
+                                </div>
+                                <ul class="nav flex-column pt-3 pt-md-0">
+                                    <li class="nav-item">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/"
+                                            class="nav-link d-flex align-items-center">
+                                            <span class="sidebar-icon">
+                                                <img src="./Volt Pro Django - Invoice _ AppSeed_files/light.svg"
+                                                    height="20" width="20" alt="Volt Logo">
+                                            </span>
+                                            <span class="mt-1 sidebar-text">Volt Overview</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="nav-link  d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-dashboard">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-chart-pie"></span></span>
+                                                <span class="sidebar-text">Dashboard</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapse  show " role="list" id="submenu-dashboard"
+                                            aria-expanded="false">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item  ">
+                                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/dashboard.html"
+                                                        class="nav-link">
+                                                        <span class="sidebar-text-contracted">O</span>
+                                                        <span class="sidebar-text">Overview</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/dashboard-traffic-sources.html"
+                                                        class="nav-link">
+                                                        <span class="sidebar-text-contracted">T</span>
+                                                        <span class="sidebar-text">All Traffic</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/dashboard-app-analysis.html"
+                                                        class="nav-link">
+                                                        <span class="sidebar-text-contracted">P</span>
+                                                        <span class="sidebar-text">Product Analysis</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/kanban.html"
+                                            class="nav-link d-flex align-items-center justify-content-between">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-th"></span></span>
+                                                <span class="sidebar-text">Kanban</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/messages.html"
+                                            class="nav-link d-flex align-items-center justify-content-between">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-inbox"></span></span>
+                                                <span class="sidebar-text">Messages</span>
+                                            </span>
+                                            <span
+                                                class="badge badge-md bg-danger badge-pill notification-count">4</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/users.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="fas fa-user-check"></span></span>
+                                            <span class="sidebar-text">Users List</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/transactions.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-hand-holding-usd"></span></span>
+                                            <span class="sidebar-text">Transactions</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/tasks.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-clipboard-list"></span></span>
+                                            <span class="sidebar-text">Task List</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/settings.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="fas fa-cog"></span></span>
+                                            <span class="sidebar-text">Settings</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/calendar.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="far fa-calendar-alt"></span></span>
+                                            <span class="sidebar-text">Calendar</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/map.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-map-marked-alt"></span></span>
+                                            <span class="sidebar-text">Map</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <span
+                                            class="nav-link  collapsed  d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-app">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-table"></span></span>
+                                                <span class="sidebar-text">Tables</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapse " role="list" id="submenu-app"
+                                            aria-expanded="false">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/tables-datatables.html">
+                                                        <span class="sidebar-text-contracted">D</span>
+                                                        <span class="sidebar-text">DataTables</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/tables-bootstrap-tables.html">
+                                                        <span class="sidebar-text-contracted">B</span>
+                                                        <span class="sidebar-text">Bootstrap Tables</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item  active ">
+                                        <span class="nav-link d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-pages"
+                                            aria-expanded="true">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="far fa-file-alt"></span></span>
+                                                <span class="sidebar-text">Page examples</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapsing" role="list" id="submenu-pages"
+                                            aria-expanded="false" style="height: 464px;">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-pricing.html">
+                                                        <span class="sidebar-text-contracted">P</span>
+                                                        <span class="sidebar-text">Pricing</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-billing.html">
+                                                        <span class="sidebar-text-contracted">B</span>
+                                                        <span class="sidebar-text">Billing</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item  active ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html">
+                                                        <span class="sidebar-text-contracted">I</span>
+                                                        <span class="sidebar-text">Invoice</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-sign-in.html">
+                                                        <span class="sidebar-text-contracted">S</span>
+                                                        <span class="sidebar-text">Sign In</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-sign-up.html">
+                                                        <span class="sidebar-text-contracted">S</span>
+                                                        <span class="sidebar-text">Sign Up</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-forgot-password.html">
+                                                        <span class="sidebar-text-contracted">F</span>
+                                                        <span class="sidebar-text">Forgot password</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-reset-password.html">
+                                                        <span class="sidebar-text-contracted">R</span>
+                                                        <span class="sidebar-text">Reset password</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-lock.html">
+                                                        <span class="sidebar-text-contracted">L</span>
+                                                        <span class="sidebar-text">Lock</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-404.html">
+                                                        <span class="sidebar-text-contracted">4</span>
+                                                        <span class="sidebar-text">404 Not Found</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-500.html">
+                                                        <span class="sidebar-text-contracted">5</span>
+                                                        <span class="sidebar-text">500 Not Found</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <span
+                                            class="nav-link  collapsed  d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-components">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-box-open"></span></span>
+                                                <span class="sidebar-text">Components</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapse " role="list" id="submenu-components"
+                                            aria-expanded="false">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/components-buttons.html">
+                                                        <span class="sidebar-text-contracted">B</span>
+                                                        <span class="sidebar-text">Buttons</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/components-notifications.html">
+                                                        <span class="sidebar-text-contracted">N</span>
+                                                        <span class="sidebar-text">Notifications</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/components-forms.html">
+                                                        <span class="sidebar-text-contracted">F</span>
+                                                        <span class="sidebar-text">Forms</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/components-modals.html">
+                                                        <span class="sidebar-text-contracted">M</span>
+                                                        <span class="sidebar-text">Modals</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/components-typography.html">
+                                                        <span class="sidebar-text-contracted">T</span>
+                                                        <span class="sidebar-text">Typography</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/widgets.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="fas fa-th-large"></span></span>
+                                            <span class="sidebar-text">Widgets</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/logout/"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-sign-out-alt text-danger"></span></span>
+                                            <span class="sidebar-text">Logout</span>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="dropdown-divider mt-4 mb-3 border-black"></li>
+                                    <li class="nav-item">
+                                        <a href="https://themesberg.com/product/django/volt-admin-dashboard-template"
+                                            target="_blank" class="nav-link d-flex align-items-center">
+                                            <span class="sidebar-icon"><span class="fas fa-info-circle"></span></span>
+                                            <span class="sidebar-text">Free Version</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="https://themesberg.com/product/django/volt-admin-dashboard-pro"
+                                            target="_blank" class="nav-link d-flex align-items-center">
+                                            <span class="sidebar-icon"><span class="fas fa-shopping-cart"></span></span>
+                                            <span class="sidebar-text">Buy now</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="simplebar-placeholder" style="width: 260px; height: 992px;"></div>
+        </div>
+        <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+            <div class="simplebar-scrollbar" style="width: 0px; display: none;"></div>
+        </div>
+        <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+            <div class="simplebar-scrollbar"
+                style="height: 537px; transform: translate3d(0px, 146px, 0px); display: block;"></div>
+        </div>
+    </nav>
+
+
+
+
+    <main class="content">
+
+
+        <nav class="navbar navbar-top navbar-expand navbar-dashboard navbar-dark ps-0 pe-2 pb-0">
+            <div class="container-fluid px-0">
+                <div class="d-flex justify-content-between w-100" id="navbarSupportedContent">
+                    <div class="d-flex align-items-center">
+                        <button id="sidebar-toggle"
+                            class="sidebar-toggle me-3 btn btn-icon-only btn-lg btn-circle d-none d-md-inline-block"><span
+                                class="fas fa-bars"></span></button>
+                        <!-- Search form -->
+                        <form class="navbar-search form-inline" id="navbar-search-main">
+                            <div class="input-group input-group-merge search-bar">
+                                <span class="input-group-text" id="topbar-addon"><span
+                                        class="fas fa-search"></span></span>
+                                <input type="text" class="form-control" id="topbarInputIconLeft" placeholder="Search"
+                                    aria-label="Search" aria-describedby="topbar-addon">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Navbar links -->
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark me-lg-3 icon-notifications dropdown-toggle"
+                                data-unread-notifications="true"
+                                href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#"
+                                role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="icon icon-sm">
+                                    <span class="fas fa-bell bell-shake"></span>
+                                    <span class="icon-badge rounded-circle unread-notifications"
+                                        style="display: block;"></span>
+                                </span>
+                            </a>
+                            <div
+                                class="dropdown-menu dashboard-dropdown dropdown-menu-lg dropdown-menu-center mt-2 py-0">
+                                <div class="list-group list-group-flush">
+                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#"
+                                        class="text-center text-primary fw-bold border-bottom border-light py-3">Notifications</a>
+                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/calendar.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./Volt Pro Django - Invoice _ AppSeed_files/profile-picture-1.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Jose Leos</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small class="text-danger">a few moments ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">Added you to an event "Project stand-up"
+                                                    tomorrow at 12:30 AM.</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/tasks.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./Volt Pro Django - Invoice _ AppSeed_files/profile-picture-2.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Neil Sims</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small class="text-danger">2 hrs ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">You've been assigned a task for "Awesome
+                                                    new project".</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/tasks.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./Volt Pro Django - Invoice _ AppSeed_files/profile-picture-3.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 m-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Roberta Casas</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small>5 hrs ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">Tagged you in a document called "First
+                                                    quarter financial plans",</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/single-message.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./Volt Pro Django - Invoice _ AppSeed_files/profile-picture-4.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Joseph Garth</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small>1 d ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">New message: "Hey, what's up? All set
+                                                    for the presentation?"</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/single-message.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./Volt Pro Django - Invoice _ AppSeed_files/profile-picture-5.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Bonnie Green</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small>2 hrs ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">New message: "We need to improve the
+                                                    UI/UX for the landing page."</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#"
+                                        class="dropdown-item text-center text-primary fw-bold rounded-bottom py-3">View
+                                        all</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle pt-1 px-0"
+                                href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="media d-flex align-items-center">
+                                    <img class="user-avatar md-avatar rounded-circle" alt="Image placeholder"
+                                        src="./Volt Pro Django - Invoice _ AppSeed_files/profile-picture-3.jpg">
+                                    <div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
+                                        <span class="mb-0 font-small fw-bold">
+                                            Current User: test
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dashboard-dropdown dropdown-menu-end mt-2 py-0">
+                                <a class="dropdown-item rounded-top fw-bold"
+                                    href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/settings.html">
+                                    <span class="far fa-user-circle"></span>My Profile</a>
+                                <a class="dropdown-item fw-bold"
+                                    href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#"><span
+                                        class="fas fa-envelope-open-text"></span>Messages</a>
+                                <a class="dropdown-item fw-bold"
+                                    href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#"><span
+                                        class="fas fa-user-shield"></span>Support</a>
+                                <div role="separator" class="dropdown-divider my-0"></div>
+                                <a class="dropdown-item rounded-bottom fw-bold"
+                                    href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/logout/">
+                                    <span class="fas fa-sign-out-alt text-danger"></span>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 col-xl-9">
+                <div class="card shadow-sm border-light p-4 p-md-5 position-relative">
+                    <div class="d-flex justify-content-between pb-4 pb-md-5 mb-4 mb-md-5 border-bottom border-light">
+                        <img class="image-md" src="./Volt Pro Django - Invoice _ AppSeed_files/light.svg" height="30"
+                            width="30" alt="Rocket Logo">
+                        <div>
+                            <h4>Volt LLC.</h4>
+                            <ul class="list-group simple-list">
+                                <li class="list-group-item fw-normal">112 Washington Square</li>
+                                <li class="list-group-item fw-normal">New York, USA</li>
+                                <li class="list-group-item fw-normal"><a class="fw-bold text-primary"
+                                        href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#">company@themesberg.com</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="mb-6 d-flex align-items-center justify-content-center">
+                        <h2 class="h1 mb-0">Invoice #00123</h2>
+                        <span class="badge badge-xl badge-success ms-2">Paid</span>
+                    </div>
+                    <div class="row justify-content-between mb-4 mb-md-5">
+                        <div class="col-sm">
+                            <h5>Client Information:</h5>
+                            <div>
+                                <ul class="list-group simple-list">
+                                    <li class="list-group-item fw-normal">Henry M. Pike</li>
+                                    <li class="list-group-item fw-normal">Themesberg LLC</li>
+                                    <li class="list-group-item fw-normal">311 West Mechanic Lane Middletown, NY 10940
+                                    </li>
+                                    <li class="list-group-item fw-normal"><a class="fw-bold text-primary"
+                                            href="https://tb-volt-dashboard-pro-django.appseed-srv1.com/page-invoice.html#">name@company.com</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm col-lg-4">
+                            <dl class="row text-sm-right">
+                                <dt class="col-6"><strong>Invoice No.</strong>
+                                </dt>
+                                <dd class="col-6">00123</dd>
+                                <dt class="col-6"><strong>Date Issued:</strong>
+                                </dt>
+                                <dd class="col-6">31/03/2020</dd>
+                                <dt class="col-6"><strong>Date Due:</strong>
+                                </dt>
+                                <dd class="col-6">30/04/2020</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="table-responsive">
+                                <table class="table mb-0">
+                                    <thead class="bg-light border-top">
+                                        <tr>
+                                            <th scope="row" class="border-0 text-left">
+                                                Item
+                                            </th>
+                                            <th scope="row" class="border-0">
+                                                Description
+                                            </th>
+                                            <th scope="row" class="border-0">
+                                                Price
+                                            </th>
+                                            <th scope="row" class="border-0">
+                                                Qty
+                                            </th>
+                                            <th scope="row" class="border-0">
+                                                Total
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row" class="text-left fw-bold h6">
+                                                Origin License
+                                            </th>
+                                            <td>
+                                                Extended License
+                                            </td>
+                                            <td>
+                                                999,00
+                                            </td>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                999,00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="text-left fw-bold h6">
+                                                Custom Services
+                                            </th>
+                                            <td>
+                                                Instalation and Customization (cost per hour)
+                                            </td>
+                                            <td>
+                                                $150,00
+                                            </td>
+                                            <td>
+                                                20
+                                            </td>
+                                            <td>
+                                                3000,00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="text-left fw-bold h6">
+                                                Hosting
+                                            </th>
+                                            <td>
+                                                1 year subcription
+                                            </td>
+                                            <td>
+                                                $499,00
+                                            </td>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                $499,00
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row" class="text-left fw-bold h6">
+                                                Platinum Support
+                                            </th>
+                                            <td>
+                                                1 year subcription 24/7
+                                            </td>
+                                            <td>
+                                                $3.999,00
+                                            </td>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                $3.999,00
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="d-flex justify-content-end text-right mb-4 py-4">
+                                <div class="mt-4">
+                                    <table class="table table-clear">
+                                        <tbody>
+                                            <tr>
+                                                <td class="left">
+                                                    <strong>Subtotal</strong>
+                                                </td>
+                                                <td class="right">$8.497,00</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="left">
+                                                    <strong>Discount (20%)</strong>
+                                                </td>
+                                                <td class="right">$1,699,40</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="left">
+                                                    <strong>VAT (10%)</strong>
+                                                </td>
+                                                <td class="right">$679,76</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="left">
+                                                    <strong>Total</strong>
+                                                </td>
+                                                <td class="right">
+                                                    <strong>$7.477,36</strong>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <h4>Payments to:</h4>
+                            <span>payment@volt.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer class="footer section py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <p class="mb-0 text-center text-xl-left">
+                        © <a class="text-primary font-weight-normal" href="https://themesberg.com/"
+                            target="_blank">Themesberg</a>
+                        coded by <a href="https://appseed.us/" target="_blank">AppSeed</a>.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <!-- List -->
+                    <ul class="list-inline list-group-flush list-group-borderless text-center text-xl-right mb-0">
+                        <li class="list-inline-item px-0 px-sm-2">
+                            <a target="_blank" href="https://themesberg.com/themes">More Templates</a>
+                        </li>
+                        <li class="list-inline-item px-0 px-sm-2">
+                            <a target="_blank" href="https://themesberg.com/blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <!-- Core Libs -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Plugins -->
+    <script src="./js/on-screen.umd.min.js"></script>
+    <script src="./js/nouislider.min.js"></script>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script src="./js/countUp.umd.js"></script>
+    <script src="./js/chartist.min.js"></script>
+    <script src="./js/chartist-plugin-tooltip.min.js"></script>
+    <script src="./js/datepicker.min.js"></script>
+    <script src="./js/simple-datatables.js"></script>
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/moment.min.js"></script>
+    <script src="./js/datepicker.min.js"></script>
+    <script src="./js/main.min.js"></script>
+    <script src="./js/dropzone.min.js"></script>
+    <script src="./js/choices.min.js"></script>
+    <script src="./js/notyf.min.js"></script>
+    <script src="./js/leaflet.js."></script>
+    <script src="./js/svgMap.min.js"></script>
+    <script src="./js/simplebar.min.js"></script>
+    <script src="./js/Sortable.min.js"></script>
+    <script async="" defer="" src="./js/buttons.js"></script>
+    <!-- Volt PRO -->
+    <script src="./js/volt.js"></script>
+    <!-- Specific Page JS goes HERE  -->
+    <div class="svgMap-tooltip">
+        <div class="svgMap-tooltip-content-wrapper"></div>
+        <div class="svgMap-tooltip-pointer"></div>
+    </div>
+
+</body>
+
+</html>

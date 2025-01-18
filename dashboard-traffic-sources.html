@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>
+        Volt Pro Django - Dashboard Traffic | AppSeed
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="title" content="Volt - Premium Bootstrap 5 Dashboard">
+    <meta name="author" content="Themesberg">
+    <meta name="description" content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
+    <meta name="keywords" content="bootstrap 5, bootstrap, bootstrap 5 admin dashboard, bootstrap 5 dashboard, bootstrap 5 charts, bootstrap 5 calendar, bootstrap 5 datepicker, bootstrap 5 tables, bootstrap 5 datatable, vanilla js datatable, themesberg, themesberg dashboard, themesberg admin dashboard">
+    <link rel="canonical" href="https://themesberg.com/product/django/volt-admin-dashboard-pro">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://demo.themesberg.com/volt-pro">
+    <meta property="og:title" content="Volt - Premium Bootstrap 5 Dashboard">
+    <meta property="og:description"
+        content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
+    <meta property="og:image" content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-pro-bootstrap-5-dashboard/volt-pro-preview.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://demo.themesberg.com/volt-pro">
+    <meta property="twitter:title" content="Volt - Premium Bootstrap 5 Dashboard">
+    <meta property="twitter:description"
+        content="Volt Pro is a Premium Bootstrap 5 Admin Dashboard featuring over 800 components, 10+ plugins and 20 example pages using Vanilla JS.">
+    <meta property="twitter:image"
+        content="https://themesberg.s3.us-east-2.amazonaws.com/public/products/volt-pro-bootstrap-5-dashboard/volt-pro-preview.jpg">
+
+    <!-- Favicon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/site.webmanifest">
+    <link rel="mask-icon"
+        href="https://appsrv1-147a1.kxcdn.com/volt-dashboard-pro-v131/img/favicon/safari-pinned-tab.svg"
+        color="#ffffff">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+
+    <link type="text/css" href="./css/all2.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/all.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/all.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/sweetalert2.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/notyf.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/main.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/dropzone.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/choices.min.css" rel="stylesheet">
+    <link type="text/css" href="./css/leaflet.css" rel="stylesheet">
+    <link type="text/css" href="./css/volt.css" rel="stylesheet">
+    <link rel="text/css" href="./css/style.css" rel="stylesheet">
+    
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1217.0" data-gr-ext-installed="">
+
+    <nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-md-none">
+        <a class="navbar-brand me-lg-5" href="">
+            <img class="navbar-brand-dark" src="./img/light.svg"
+                alt="Volt logo"> <img class="navbar-brand-light"
+                src="./img/dark.svg" alt="Volt logo">
+        </a>
+        <div class="d-flex align-items-center">
+            <button class="navbar-toggler d-md-none collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </nav>
+    <nav id="sidebarMenu" class="sidebar d-md-block bg-dark text-white collapse simplebar-scrollable-y"
+        data-simplebar="init">
+        <div class="simplebar-wrapper" style="margin: 0px;">
+            <div class="simplebar-height-auto-observer-wrapper">
+                <div class="simplebar-height-auto-observer"></div>
+            </div>
+            <div class="simplebar-mask">
+                <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                    <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                        <div class="simplebar-content" style="padding: 0px;">
+                            <div class="sidebar-inner px-4 pt-3">
+                                <div
+                                    class="user-card d-flex d-md-none align-items-center justify-content-between justify-content-md-center pb-4">
+                                    <div class="d-flex align-items-center">
+                                        <div class="user-avatar lg-avatar me-4">
+                                            <img src="./img/profile-picture-3.jpg"
+                                                class="card-img-top rounded-circle border-white" alt="Bonnie Green">
+                                        </div>
+                                        <div class="d-block">
+                                            <h2 class="h6">Hi, test</h2>
+                                            <a href="./logout/"
+                                                class="btn btn-secondary text-dark btn-xs">
+                                                <span class="me-2"><span class="fas fa-sign-out-alt"></span></span>Sign
+                                                Out</a>
+                                        </div>
+                                    </div>
+                                    <div class="collapse-close d-md-none">
+                                        <a href="./dashboard-traffic-sources.html#sidebarMenu"
+                                            class="fas fa-times" data-bs-toggle="collapse" data-bs-target="#sidebarMenu"
+                                            aria-controls="sidebarMenu" aria-expanded="true"
+                                            aria-label="Toggle navigation"></a>
+                                    </div>
+                                </div>
+                                <ul class="nav flex-column pt-3 pt-md-0">
+                                    <li class="nav-item">
+                                        <a href="./"
+                                            class="nav-link d-flex align-items-center">
+                                            <span class="sidebar-icon">
+                                                <img src="./img/light.svg"
+                                                    height="20" width="20" alt="Volt Logo">
+                                            </span>
+                                            <span class="mt-1 sidebar-text">Volt Overview</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <span class="nav-link  d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-dashboard">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-chart-pie"></span></span>
+                                                <span class="sidebar-text">Dashboard</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapse  show " role="list" id="submenu-dashboard"
+                                            aria-expanded="false">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item  ">
+                                                    <a href="./dashboard.html"
+                                                        class="nav-link">
+                                                        <span class="sidebar-text-contracted">O</span>
+                                                        <span class="sidebar-text">Overview</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item active ">
+                                                    <a href="./dashboard-traffic-sources.html"
+                                                        class="nav-link">
+                                                        <span class="sidebar-text-contracted">T</span>
+                                                        <span class="sidebar-text">All Traffic</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a href="./dashboard-app-analysis.html"
+                                                        class="nav-link">
+                                                        <span class="sidebar-text-contracted">P</span>
+                                                        <span class="sidebar-text">Product Analysis</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item  ">
+                                        <a href="./kanban.html"
+                                            class="nav-link d-flex align-items-center justify-content-between">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-th"></span></span>
+                                                <span class="sidebar-text">Kanban</span>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./messages.html"
+                                            class="nav-link d-flex align-items-center justify-content-between">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-inbox"></span></span>
+                                                <span class="sidebar-text">Messages</span>
+                                            </span>
+                                            <span
+                                                class="badge badge-md bg-danger badge-pill notification-count">4</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./users.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="fas fa-user-check"></span></span>
+                                            <span class="sidebar-text">Users List</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./transactions.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-hand-holding-usd"></span></span>
+                                            <span class="sidebar-text">Transactions</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./tasks.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-clipboard-list"></span></span>
+                                            <span class="sidebar-text">Task List</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./settings.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="fas fa-cog"></span></span>
+                                            <span class="sidebar-text">Settings</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./calendar.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="far fa-calendar-alt"></span></span>
+                                            <span class="sidebar-text">Calendar</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./map.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-map-marked-alt"></span></span>
+                                            <span class="sidebar-text">Map</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <span
+                                            class="nav-link  collapsed  d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-app">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-table"></span></span>
+                                                <span class="sidebar-text">Tables</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapse " role="list" id="submenu-app"
+                                            aria-expanded="false">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./tables-datatables.html">
+                                                        <span class="sidebar-text-contracted">D</span>
+                                                        <span class="sidebar-text">DataTables</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./tables-bootstrap-tables.html">
+                                                        <span class="sidebar-text-contracted">B</span>
+                                                        <span class="sidebar-text">Bootstrap Tables</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <span
+                                            class="nav-link  collapsed  d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-pages">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="far fa-file-alt"></span></span>
+                                                <span class="sidebar-text">Page examples</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapse " role="list" id="submenu-pages"
+                                            aria-expanded="false">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./page-pricing.html">
+                                                        <span class="sidebar-text-contracted">P</span>
+                                                        <span class="sidebar-text">Pricing</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./page-billing.html">
+                                                        <span class="sidebar-text-contracted">B</span>
+                                                        <span class="sidebar-text">Billing</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./page-invoice.html">
+                                                        <span class="sidebar-text-contracted">I</span>
+                                                        <span class="sidebar-text">Invoice</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="./page-sign-in.html">
+                                                        <span class="sidebar-text-contracted">S</span>
+                                                        <span class="sidebar-text">Sign In</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="./page-sign-up.html">
+                                                        <span class="sidebar-text-contracted">S</span>
+                                                        <span class="sidebar-text">Sign Up</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="./page-forgot-password.html">
+                                                        <span class="sidebar-text-contracted">F</span>
+                                                        <span class="sidebar-text">Forgot password</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="./page-reset-password.html">
+                                                        <span class="sidebar-text-contracted">R</span>
+                                                        <span class="sidebar-text">Reset password</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="./page-lock.html">
+                                                        <span class="sidebar-text-contracted">L</span>
+                                                        <span class="sidebar-text">Lock</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="./page-404.html">
+                                                        <span class="sidebar-text-contracted">4</span>
+                                                        <span class="sidebar-text">404 Not Found</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link"
+                                                        href="./page-500.html">
+                                                        <span class="sidebar-text-contracted">5</span>
+                                                        <span class="sidebar-text">500 Not Found</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <span
+                                            class="nav-link  collapsed  d-flex justify-content-between align-items-center"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-components">
+                                            <span>
+                                                <span class="sidebar-icon"><span class="fas fa-box-open"></span></span>
+                                                <span class="sidebar-text">Components</span>
+                                            </span>
+                                            <span class="link-arrow"><span class="fas fa-chevron-right"></span></span>
+                                        </span>
+                                        <div class="multi-level collapse " role="list" id="submenu-components"
+                                            aria-expanded="false">
+                                            <ul class="flex-column nav">
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./components-buttons.html">
+                                                        <span class="sidebar-text-contracted">B</span>
+                                                        <span class="sidebar-text">Buttons</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./components-notifications.html">
+                                                        <span class="sidebar-text-contracted">N</span>
+                                                        <span class="sidebar-text">Notifications</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./components-forms.html">
+                                                        <span class="sidebar-text-contracted">F</span>
+                                                        <span class="sidebar-text">Forms</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./components-modals.html">
+                                                        <span class="sidebar-text-contracted">M</span>
+                                                        <span class="sidebar-text">Modals</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item ">
+                                                    <a class="nav-link"
+                                                        href="./components-typography.html">
+                                                        <span class="sidebar-text-contracted">T</span>
+                                                        <span class="sidebar-text">Typography</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item ">
+                                        <a href="./widgets.html"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span class="fas fa-th-large"></span></span>
+                                            <span class="sidebar-text">Widgets</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="./logout/"
+                                            class="nav-link">
+                                            <span class="sidebar-icon"><span
+                                                    class="fas fa-sign-out-alt text-danger"></span></span>
+                                            <span class="sidebar-text">Logout</span>
+                                        </a>
+                                    </li>
+                                    <li role="separator" class="dropdown-divider mt-4 mb-3 border-black"></li>
+                                    <li class="nav-item">
+                                        <a href=""
+                                            target="_blank" class="nav-link d-flex align-items-center">
+                                            <span class="sidebar-icon"><span class="fas fa-info-circle"></span></span>
+                                            <span class="sidebar-text">Free Version</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href=""
+                                            target="_blank" class="nav-link d-flex align-items-center">
+                                            <span class="sidebar-icon"><span class="fas fa-shopping-cart"></span></span>
+                                            <span class="sidebar-text">Buy now</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="simplebar-placeholder" style="width: 260px; height: 992px;"></div>
+        </div>
+        <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+            <div class="simplebar-scrollbar" style="width: 0px; display: none;"></div>
+        </div>
+        <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+            <div class="simplebar-scrollbar"
+                style="height: 537px; transform: translate3d(0px, 0px, 0px); display: block;"></div>
+        </div>
+    </nav>
+    <main class="content">
+        <nav class="navbar navbar-top navbar-expand navbar-dashboard navbar-dark ps-0 pe-2 pb-0">
+            <div class="container-fluid px-0">
+                <div class="d-flex justify-content-between w-100" id="navbarSupportedContent">
+                    <div class="d-flex align-items-center">
+                        <button id="sidebar-toggle"
+                            class="sidebar-toggle me-3 btn btn-icon-only btn-lg btn-circle d-none d-md-inline-block"><span
+                                class="fas fa-bars"></span></button>
+                        <!-- Search form -->
+                        <form class="navbar-search form-inline" id="navbar-search-main">
+                            <div class="input-group input-group-merge search-bar">
+                                <span class="input-group-text" id="topbar-addon"><span
+                                        class="fas fa-search"></span></span>
+                                <input type="text" class="form-control" id="topbarInputIconLeft" placeholder="Search"
+                                    aria-label="Search" aria-describedby="topbar-addon">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Navbar links -->
+                    <ul class="navbar-nav align-items-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark me-lg-3 icon-notifications dropdown-toggle"
+                                data-unread-notifications="true"
+                                href="./dashboard-traffic-sources.html"
+                                role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="icon icon-sm">
+                                    <span class="fas fa-bell bell-shake shaking"></span>
+                                    <span class="icon-badge rounded-circle unread-notifications"
+                                        style="display: block;"></span>
+                                </span>
+                            </a>
+                            <div
+                                class="dropdown-menu dashboard-dropdown dropdown-menu-lg dropdown-menu-center mt-2 py-0">
+                                <div class="list-group list-group-flush">
+                                    <a href="./dashboard-traffic-sources.html#"
+                                        class="text-center text-primary fw-bold border-bottom border-light py-3">Notifications</a>
+                                    <a href="./calendar.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./img/profile-picture-1.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Jose Leos</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small class="text-danger">a few moments ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">Added you to an event "Project stand-up"
+                                                    tomorrow at 12:30 AM.</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="./tasks.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./img/profile-picture-2.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Neil Sims</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small class="text-danger">2 hrs ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">You've been assigned a task for "Awesome
+                                                    new project".</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="./tasks.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./img/profile-picture-3.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 m-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Roberta Casas</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small>5 hrs ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">Tagged you in a document called "First
+                                                    quarter financial plans",</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="./single-message.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./img/profile-picture-4.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Joseph Garth</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small>1 d ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">New message: "Hey, what's up? All set
+                                                    for the presentation?"</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="./single-message.html"
+                                        class="list-group-item list-group-item-action border-bottom border-light">
+                                        <div class="row align-items-center">
+                                            <div class="col-auto">
+                                                <!-- Avatar -->
+                                                <img alt="Image placeholder"
+                                                    src="./img/profile-picture-5.jpg"
+                                                    class="user-avatar lg-avatar rounded-circle">
+                                            </div>
+                                            <div class="col ps-0 ms-2">
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <div>
+                                                        <h4 class="h6 mb-0 text-small">Bonnie Green</h4>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <small>2 hrs ago</small>
+                                                    </div>
+                                                </div>
+                                                <p class="font-small mt-1 mb-0">New message: "We need to improve the
+                                                    UI/UX for the landing page."</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="./dashboard-traffic-sources.html"
+                                        class="dropdown-item text-center text-primary fw-bold rounded-bottom py-3">View
+                                        all</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle pt-1 px-0"
+                                href="./dashboard-traffic-sources.html"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <div class="media d-flex align-items-center">
+                                    <img class="user-avatar md-avatar rounded-circle" alt="Image placeholder"
+                                        src="./img/profile-picture-3.jpg">
+                                    <div class="media-body ms-2 text-dark align-items-center d-none d-lg-block">
+                                        <span class="mb-0 font-small fw-bold">
+                                            Current User: test
+                                        </span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dashboard-dropdown dropdown-menu-end mt-2 py-0">
+                                <a class="dropdown-item rounded-top fw-bold"
+                                    href="./settings.html">
+                                    <span class="far fa-user-circle"></span>My Profile</a>
+                                <a class="dropdown-item fw-bold"
+                                    href="./dashboard-traffic-sources.html"><span
+                                        class="fas fa-envelope-open-text"></span>Messages</a>
+                                <a class="dropdown-item fw-bold"
+                                    href="./dashboard-traffic-sources.html"><span
+                                        class="fas fa-user-shield"></span>Support</a>
+                                <div role="separator" class="dropdown-divider my-0"></div>
+                                <a class="dropdown-item rounded-bottom fw-bold"
+                                    href="./logout/">
+                                    <span class="fas fa-sign-out-alt text-danger"></span>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center py-4">
+            <div class="btn-toolbar">
+                <button class="btn btn-dark btn-sm me-2 dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Categories <span class="icon icon-small ms-2"><span class="fas fa-chevron-down"></span></span>
+                </button>
+                <div class="dropdown-menu dashboard-dropdown dropdown-menu-start mt-2 py-0">
+                    <a class="dropdown-item fw-normal rounded-top"
+                        href="./dashboard-traffic-sources.html#"><span
+                            class="fas fa-tablet-alt me-1"></span>My App</a>
+                    <a class="dropdown-item fw-normal"
+                        href="./dashboard-traffic-sources.html#"><span
+                            class="fas fa-window-maximize me-1"></span>My Website</a>
+                    <a class="dropdown-item fw-normal"
+                        href="./dashboard-traffic-sources.html#"><span
+                            class="fas fa-chart-pie me-1"></span>Worldwide Traffic</a>
+                    <a class="dropdown-item fw-normal rounded-bottom"
+                        href="./dashboard-traffic-sources.html#"><span
+                            class="fas fa-bullseye me-1"></span>Niche Traffic</a>
+                </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-sm btn-outline-primary">Share</button>
+                <button type="button" class="btn btn-sm btn-outline-primary">Export</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-xl-4 mb-4">
+                <div class="card border-light shadow-sm">
+                    <div class="card-body d-flex flex-row align-items-center flex-0 border-bottom">
+                        <div class="d-block">
+                            <div class="h6 fw-normal text-gray mb-2">Traffic Share</div>
+                            <h2 class="h4">Direct</h2>
+                            <div class="small mt-2">
+                                <span class="fas fa-angle-up text-success"></span>
+                                <span class="text-success fw-bold">51.5%</span>
+                            </div>
+                        </div>
+                        <div class="ms-auto">
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="shape-xs rounded-circle bg-dark me-2"></span>
+                                <span class="fw-normal small me-3">Direct</span>
+                                <span class="small fw-bold text-dark ms-auto">51.50%</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="shape-xs rounded-circle bg-secondary me-2"></span>
+                                <span class="fw-normal small me-3">Referrals</span>
+                                <span class="small fw-bold text-dark ms-auto">29.40%</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="shape-xs rounded-circle bg-tertiary me-2"></span>
+                                <span class="fw-normal small me-3">Organic</span>
+                                <span class="small fw-bold text-dark ms-auto">9.10%</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="shape-xs rounded-circle bg-indigo me-2"></span>
+                                <span class="fw-normal small me-3">Social</span>
+                                <span class="small fw-bold text-dark ms-auto">6.50%</span>
+                            </div>
+                            <div class="d-flex align-items-center mb-2">
+                                <span class="shape-xs rounded-circle bg-pink me-2"></span>
+                                <span class="fw-normal small me-3">Mail</span>
+                                <span class="small fw-bold text-dark ms-auto">3.50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-2 py-5">
+                        <div class="ct-chart-traffic-share-2 ct-golden-section ct-series-a">
+                            <div class="chartist-tooltip"></div><svg
+                                xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%"
+                                class="ct-chart-donut" style="width: 100%; height: 100%;">
+                                <g class="ct-series ct-series-a">
+                                    <path
+                                        d="M283.882,171.538A111.025,111.025,0,0,0,187.731,5L187.731,55A61.025,61.025,0,0,1,240.58,146.538Z"
+                                        class="ct-slice-donut-solid" ct:value="30"></path>
+                                </g>
+                                <g class="ct-series ct-series-b">
+                                    <path
+                                        d="M149.758,220.354A111.025,111.025,0,0,0,284.075,171.202L240.687,146.353A61.025,61.025,0,0,1,166.859,173.37Z"
+                                        class="ct-slice-donut-solid" ct:value="20"></path>
+                                </g>
+                                <g class="ct-series ct-series-c">
+                                    <path
+                                        d="M78.393,96.746A111.025,111.025,0,0,0,150.123,220.486L167.06,173.442A61.025,61.025,0,0,1,127.633,105.428Z"
+                                        class="ct-slice-donut-solid" ct:value="20"></path>
+                                </g>
+                                <g class="ct-series ct-series-d">
+                                    <path
+                                        d="M116.366,30.975A111.025,111.025,0,0,0,78.326,97.127L127.597,105.638A61.025,61.025,0,0,1,148.505,69.277Z"
+                                        class="ct-slice-donut-solid" ct:value="10"></path>
+                                </g>
+                                <g class="ct-series ct-series-e">
+                                    <path
+                                        d="M187.731,5A111.025,111.025,0,0,0,116.069,31.225L148.342,69.414A61.025,61.025,0,0,1,187.731,55Z"
+                                        class="ct-slice-donut-solid" ct:value="10"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-xl-8 mb-4">
+                <div class="card border-light shadow-sm">
+                    <div class="card-body d-flex flex-row align-items-center flex-0 border-bottom">
+                        <div class="w-100 d-flex justify-content-between align-items-start">
+                            <div>
+                                <div class="h6 fw-normal text-gray mb-2">Traffic Volumes by Source</div>
+                                <h2 class="h4">Direct</h2>
+                                <div class="small mt-2">
+                                    <span class="fas fa-angle-up text-success"></span>
+                                    <span class="text-success fw-bold">18 B</span>
+                                    <span class="fw-bold ms-2"><span class="icon icon-small me-1"><span
+                                                class="fas fa-globe-europe"></span></span>WorldWide</span>
+                                </div>
+                            </div>
+                            <div class="d-xl-flex flex-wrap justify-content-end">
+                                <div class="d-flex align-items-center mb-2 me-3 lh-130">
+                                    <span class="shape-xs rounded-circle bg-warning me-2"></span>
+                                    <span class="fw-normal small">Direct</span>
+                                    <span class="small fw-bold text-dark ms-1">18M</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-2 me-3 lh-130">
+                                    <span class="shape-xs rounded-circle bg-info me-2"></span>
+                                    <span class="fw-normal small">Refferals</span>
+                                    <span class="small fw-bold text-dark ms-1">15M</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-2 me-3 lh-130">
+                                    <span class="shape-xs rounded-circle bg-tertiary me-2"></span>
+                                    <span class="fw-normal small">Organic</span>
+                                    <span class="small fw-bold text-dark ms-1">12M</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-2 me-3 lh-130">
+                                    <span class="shape-xs rounded-circle bg-indigo me-2"></span>
+                                    <span class="fw-normal small">Social</span>
+                                    <span class="small fw-bold text-dark ms-1">6M</span>
+                                </div>
+                                <div class="d-flex align-items-center mb-2 me-3 lh-130">
+                                    <span class="shape-xs rounded-circle bg-pink me-2"></span>
+                                    <span class="fw-normal small">Mail</span>
+                                    <span class="small fw-bold text-dark ms-1">5M</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-2 pb-4">
+                        <div class="ct-chart-volumes ct-major-tenth ct-series-a">
+                            <div class="chartist-tooltip" style="top: 274.8px; left: 414.138px;"></div><svg
+                                xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%"
+                                class="ct-chart-line" style="width: 100%; height: 100%;">
+                                <g class="ct-grids">
+                                    <line y1="282" y2="282" x1="50" x2="777.5250244140625" class="ct-grid ct-vertical">
+                                    </line>
+                                    <line y1="243.85714285714286" y2="243.85714285714286" x1="50" x2="777.5250244140625"
+                                        class="ct-grid ct-vertical"></line>
+                                    <line y1="205.71428571428572" y2="205.71428571428572" x1="50" x2="777.5250244140625"
+                                        class="ct-grid ct-vertical"></line>
+                                    <line y1="167.57142857142856" y2="167.57142857142856" x1="50" x2="777.5250244140625"
+                                        class="ct-grid ct-vertical"></line>
+                                    <line y1="129.42857142857142" y2="129.42857142857142" x1="50" x2="777.5250244140625"
+                                        class="ct-grid ct-vertical"></line>
+                                    <line y1="91.28571428571428" y2="91.28571428571428" x1="50" x2="777.5250244140625"
+                                        class="ct-grid ct-vertical"></line>
+                                    <line y1="53.14285714285714" y2="53.14285714285714" x1="50" x2="777.5250244140625"
+                                        class="ct-grid ct-vertical"></line>
+                                    <line y1="15" y2="15" x1="50" x2="777.5250244140625" class="ct-grid ct-vertical">
+                                    </line>
+                                </g>
+                                <g>
+                                    <g class="ct-series ct-series-a">
+                                        <path
+                                            d="M50,266.743C90.418,259.114,130.836,243.857,171.254,243.857C211.672,243.857,252.09,266.743,292.508,266.743C332.926,266.743,373.344,261.657,413.763,259.114C454.181,256.571,494.599,254.876,535.017,251.486C575.435,248.095,615.853,241.314,656.271,236.229C696.689,231.143,737.107,226.057,777.525,220.971"
+                                            class="ct-line"></path>
+                                        <line x1="50" y1="266.74285714285713" x2="50.01" y2="266.74285714285713"
+                                            class="ct-point" ct:value="2"></line>
+                                        <line x1="171.25417073567706" y1="243.85714285714286" x2="171.26417073567706"
+                                            y2="243.85714285714286" class="ct-point" ct:value="5"></line>
+                                        <line x1="292.50834147135413" y1="266.74285714285713" x2="292.5183414713541"
+                                            y2="266.74285714285713" class="ct-point" ct:value="2"></line>
+                                        <line x1="413.76251220703125" y1="259.1142857142857" x2="413.77251220703124"
+                                            y2="259.1142857142857" class="ct-point" ct:value="3"></line>
+                                        <line x1="535.0166829427083" y1="251.4857142857143" x2="535.0266829427082"
+                                            y2="251.4857142857143" class="ct-point" ct:value="4"></line>
+                                        <line x1="656.2708536783854" y1="236.22857142857143" x2="656.2808536783854"
+                                            y2="236.22857142857143" class="ct-point" ct:value="6"></line>
+                                        <line x1="777.5250244140625" y1="220.97142857142856" x2="777.5350244140625"
+                                            y2="220.97142857142856" class="ct-point" ct:value="8"></line>
+                                    </g>
+                                    <g class="ct-series ct-series-b">
+                                        <path
+                                            d="M50,243.857C90.418,241.314,130.836,236.229,171.254,236.229C211.672,236.229,252.09,243.857,292.508,243.857C332.926,243.857,373.344,229.69,413.763,220.971C454.181,212.253,494.599,207.41,535.017,190.457C575.435,173.505,615.853,37.886,656.271,37.886C696.689,37.886,737.107,58.229,777.525,68.4"
+                                            class="ct-line"></path>
+                                        <line x1="50" y1="243.85714285714286" x2="50.01" y2="243.85714285714286"
+                                            class="ct-point" ct:value="5"></line>
+                                        <line x1="171.25417073567706" y1="236.22857142857143" x2="171.26417073567706"
+                                            y2="236.22857142857143" class="ct-point" ct:value="6"></line>
+                                        <line x1="292.50834147135413" y1="243.85714285714286" x2="292.5183414713541"
+                                            y2="243.85714285714286" class="ct-point" ct:value="5"></line>
+                                        <line x1="413.76251220703125" y1="220.97142857142856" x2="413.77251220703124"
+                                            y2="220.97142857142856" class="ct-point" ct:value="8"></line>
+                                        <line x1="535.0166829427083" y1="190.45714285714286" x2="535.0266829427082"
+                                            y2="190.45714285714286" class="ct-point" ct:value="12"></line>
+                                        <line x1="656.2708536783854" y1="37.88571428571427" x2="656.2808536783854"
+                                            y2="37.88571428571427" class="ct-point" ct:value="32"></line>
+                                        <line x1="777.5250244140625" y1="68.4" x2="777.5350244140625" y2="68.4"
+                                            class="ct-point" ct:value="28"></line>
+                                    </g>
+                                    <g class="ct-series ct-series-c">
+                                        <path
+                                            d="M50,228.6C90.418,215.886,130.836,190.457,171.254,190.457C211.672,190.457,252.09,217.298,292.508,228.6C332.926,239.902,373.344,255.046,413.763,259.114C454.181,263.183,494.599,266.743,535.017,266.743C575.435,266.743,615.853,243.433,656.271,228.6C696.689,213.767,737.107,193,777.525,175.2"
+                                            class="ct-line"></path>
+                                        <line x1="50" y1="228.6" x2="50.01" y2="228.6" class="ct-point" ct:value="7">
+                                        </line>
+                                        <line x1="171.25417073567706" y1="190.45714285714286" x2="171.26417073567706"
+                                            y2="190.45714285714286" class="ct-point" ct:value="12"></line>
+                                        <line x1="292.50834147135413" y1="228.6" x2="292.5183414713541" y2="228.6"
+                                            class="ct-point" ct:value="7"></line>
+                                        <line x1="413.76251220703125" y1="259.1142857142857" x2="413.77251220703124"
+                                            y2="259.1142857142857" class="ct-point" ct:value="3"></line>
+                                        <line x1="535.0166829427083" y1="266.74285714285713" x2="535.0266829427082"
+                                            y2="266.74285714285713" class="ct-point" ct:value="2"></line>
+                                        <line x1="656.2708536783854" y1="228.6" x2="656.2808536783854" y2="228.6"
+                                            class="ct-point" ct:value="7"></line>
+                                        <line x1="777.5250244140625" y1="175.2" x2="777.5350244140625" y2="175.2"
+                                            class="ct-point" ct:value="14"></line>
+                                    </g>
+                                    <g class="ct-series ct-series-d">
+                                        <path
+                                            d="M50,205.714C90.418,193,130.836,167.571,171.254,167.571C211.672,167.571,252.09,182.829,292.508,182.829C332.926,182.829,373.344,152.314,413.763,152.314C454.181,152.314,494.599,175.2,535.017,175.2C575.435,175.2,615.853,151.467,656.271,144.686C696.689,137.905,737.107,134.514,777.525,129.429"
+                                            class="ct-line"></path>
+                                        <line x1="50" y1="205.71428571428572" x2="50.01" y2="205.71428571428572"
+                                            class="ct-point" ct:value="10"></line>
+                                        <line x1="171.25417073567706" y1="167.57142857142856" x2="171.26417073567706"
+                                            y2="167.57142857142856" class="ct-point" ct:value="15"></line>
+                                        <line x1="292.50834147135413" y1="182.82857142857142" x2="292.5183414713541"
+                                            y2="182.82857142857142" class="ct-point" ct:value="13"></line>
+                                        <line x1="413.76251220703125" y1="152.31428571428572" x2="413.77251220703124"
+                                            y2="152.31428571428572" class="ct-point" ct:value="17"></line>
+                                        <line x1="535.0166829427083" y1="175.2" x2="535.0266829427082" y2="175.2"
+                                            class="ct-point" ct:value="14"></line>
+                                        <line x1="656.2708536783854" y1="144.68571428571428" x2="656.2808536783854"
+                                            y2="144.68571428571428" class="ct-point" ct:value="18"></line>
+                                        <line x1="777.5250244140625" y1="129.42857142857142" x2="777.5350244140625"
+                                            y2="129.42857142857142" class="ct-point" ct:value="20"></line>
+                                    </g>
+                                    <g class="ct-series ct-series-e">
+                                        <path
+                                            d="M50,159.943C90.418,154.857,130.836,144.686,171.254,144.686C211.672,144.686,252.09,144.686,292.508,144.686C332.926,144.686,373.344,129.429,413.763,129.429C454.181,129.429,494.599,129.429,535.017,129.429C575.435,129.429,615.853,129.429,656.271,129.429C696.689,129.429,737.107,114.171,777.525,106.543"
+                                            class="ct-line"></path>
+                                        <line x1="50" y1="159.94285714285712" x2="50.01" y2="159.94285714285712"
+                                            class="ct-point" ct:value="16"></line>
+                                        <line x1="171.25417073567706" y1="144.68571428571428" x2="171.26417073567706"
+                                            y2="144.68571428571428" class="ct-point" ct:value="18"></line>
+                                        <line x1="292.50834147135413" y1="144.68571428571428" x2="292.5183414713541"
+                                            y2="144.68571428571428" class="ct-point" ct:value="18"></line>
+                                        <line x1="413.76251220703125" y1="129.42857142857142" x2="413.77251220703124"
+                                            y2="129.42857142857142" class="ct-point" ct:value="20"></line>
+                                        <line x1="535.0166829427083" y1="129.42857142857142" x2="535.0266829427082"
+                                            y2="129.42857142857142" class="ct-point" ct:value="20"></line>
+                                        <line x1="656.2708536783854" y1="129.42857142857142" x2="656.2808536783854"
+                                            y2="129.42857142857142" class="ct-point" ct:value="20"></line>
+                                        <line x1="777.5250244140625" y1="106.54285714285714" x2="777.5350244140625"
+                                            y2="106.54285714285714" class="ct-point" ct:value="23"></line>
+                                    </g>
+                                </g>
+                                <g class="ct-labels">
+                                    <foreignobject style="overflow: visible;" x="50" y="287" width="121.25417073567708"
+                                        height="20"><span class="ct-label ct-horizontal ct-end"
+                                            xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="width: 121px; height: 20px;">Mar 16</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" x="171.25417073567706" y="287"
+                                        width="121.25417073567708" height="20"><span
+                                            class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="width: 121px; height: 20px;">Apr 16</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" x="292.50834147135413" y="287"
+                                        width="121.25417073567709" height="20"><span
+                                            class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="width: 121px; height: 20px;">May 16</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" x="413.76251220703125" y="287"
+                                        width="121.25417073567706" height="20"><span
+                                            class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="width: 121px; height: 20px;">Jun 16</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" x="535.0166829427083" y="287"
+                                        width="121.25417073567706" height="20"><span
+                                            class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="width: 121px; height: 20px;">Jul 16</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" x="656.2708536783854" y="287"
+                                        width="121.25417073567712" height="20"><span
+                                            class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="width: 121px; height: 20px;">Aug 16</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" x="777.5250244140625" y="287" width="30"
+                                        height="20"><span class="ct-label ct-horizontal ct-end"
+                                            xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="width: 30px; height: 20px;">Sept 16</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="243.85714285714286" x="10"
+                                        height="38.142857142857146" width="30"><span
+                                            class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 38px; width: 30px;">0M</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="205.71428571428572" x="10"
+                                        height="38.142857142857146" width="30"><span
+                                            class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 38px; width: 30px;">5M</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="167.57142857142858" x="10"
+                                        height="38.14285714285714" width="30"><span
+                                            class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 38px; width: 30px;">10M</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="129.4285714285714" x="10"
+                                        height="38.14285714285715" width="30"><span
+                                            class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 38px; width: 30px;">15M</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="91.28571428571428" x="10"
+                                        height="38.14285714285714" width="30"><span
+                                            class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 38px; width: 30px;">20M</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="53.14285714285714" x="10"
+                                        height="38.14285714285714" width="30"><span
+                                            class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 38px; width: 30px;">25M</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="15" x="10" height="38.14285714285714"
+                                        width="30"><span class="ct-label ct-vertical ct-start"
+                                            xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 38px; width: 30px;">30M</span></foreignobject>
+                                    <foreignobject style="overflow: visible;" y="-15" x="10" height="30" width="30">
+                                        <span class="ct-label ct-vertical ct-start"
+                                            xmlns="http://www.w3.org/2000/xmlns/"
+                                            style="height: 30px; width: 30px;">35M</span></foreignobject>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mb-4">
+                <div class="card border-light shadow-sm">
+                    <div class="card-body pb-0">
+                        <div class="table-responsive">
+                            <table class="table table-centered table-nowrap mb-0 rounded">
+                                <thead class="thead-light">
+                                    <tr>
+                                        <th class="border-0">#</th>
+                                        <th class="border-0">Traffic Source</th>
+                                        <th class="border-0">Source Type</th>
+                                        <th class="border-0">Category</th>
+                                        <th class="border-0">Global Rank</th>
+                                        <th class="border-0">Traffic Share</th>
+                                        <th class="border-0">Change</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Item -->
+                                    <tr>
+                                        <td><a href="./dashboard-traffic-sources.html#"
+                                                class="text-primary fw-bold">1</a> </td>
+                                        <td class="fw-bold"><span class="icon icon-xs icon-gray w-30"><span
+                                                    class="fas fa-globe-europe"></span></span>Direct</td>
+                                        <td>
+                                            Direct
+                                        </td>
+                                        <td>
+                                            -
+                                        </td>
+                                        <td>
+                                            --
+                                        </td>
+                                        <td>
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-xl-2 px-0">
+                                                    <div class="small fw-bold">51%</div>
+                                                </div>
+                                                <div class="col-12 col-xl-10 px-0 px-xl-1">
+                                                    <div class="progress progress-lg mb-0">
+                                                        <div class="progress-bar bg-dark" role="progressbar"
+                                                            aria-valuenow="51" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 51%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-success">
+                                            <span class="fas fa-angle-up"></span>
+                                            <span class="fw-bold">2.45%</span>
+                                        </td>
+                                    </tr>
+                                    <!-- End of Item -->
+
+                                    <!-- Item -->
+                                    <tr>
+                                        <td><a href="./dashboard-traffic-sources.html#"
+                                                class="text-primary fw-bold">2</a> </td>
+                                        <td class="fw-bold"><span class="icon icon-xs icon-info w-30"><span
+                                                    class="fab fa-google"></span></span>Google Search</td>
+                                        <td>
+                                            Search / Organic
+                                        </td>
+                                        <td>
+                                            -
+                                        </td>
+                                        <td>
+                                            --
+                                        </td>
+                                        <td>
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-xl-2 px-0">
+                                                    <div class="small fw-bold">18%</div>
+                                                </div>
+                                                <div class="col-12 col-xl-10 px-0 px-xl-1">
+                                                    <div class="progress progress-lg mb-0">
+                                                        <div class="progress-bar bg-dark" role="progressbar"
+                                                            aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 18%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-success">
+                                            <span class="fas fa-angle-up"></span>
+                                            <span class="fw-bold">17.67%</span>
+                                        </td>
+                                    </tr>
+                                    <!-- End of Item -->
+
+                                    <!-- Item -->
+                                    <tr>
+                                        <td><a href="./dashboard-traffic-sources.html#"
+                                                class="text-primary fw-bold">3</a> </td>
+                                        <td class="fw-bold"><span class="icon icon-xs icon-danger w-30"><span
+                                                    class="fab fa-youtube"></span></span> youtube.com</td>
+                                        <td>
+                                            Social
+                                        </td>
+                                        <td>
+                                            <a class="small fw-bold"
+                                                href="./dashboard-traffic-sources.html#">Arts
+                                                and Entertainment</a>
+                                        </td>
+                                        <td>
+                                            #2
+                                        </td>
+                                        <td>
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-xl-2 px-0">
+                                                    <div class="small fw-bold">18%</div>
+                                                </div>
+                                                <div class="col-12 col-xl-10 px-0 px-xl-1">
+                                                    <div class="progress progress-lg mb-0">
+                                                        <div class="progress-bar bg-dark" role="progressbar"
+                                                            aria-valuenow="18" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 18%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            -
+                                        </td>
+                                    </tr>
+                                    <!-- End of Item -->
+
+                                    <!-- Item -->
+                                    <tr>
+                                        <td><a href="./dashboard-traffic-sources.html#"
+                                                class="text-primary fw-bold">4</a> </td>
+                                        <td class="fw-bold"><span class="icon icon-xs icon-purple w-30"><span
+                                                    class="fab fa-yahoo"></span></span> yahoo.com</td>
+                                        <td>
+                                            Referral
+                                        </td>
+                                        <td>
+                                            <a class="small fw-bold"
+                                                href="./dashboard-traffic-sources.html#">News
+                                                and Media</a>
+                                        </td>
+                                        <td>
+                                            #11
+                                        </td>
+                                        <td>
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-xl-2 px-0">
+                                                    <div class="small fw-bold">8%</div>
+                                                </div>
+                                                <div class="col-12 col-xl-10 px-0 px-xl-1">
+                                                    <div class="progress progress-lg mb-0">
+                                                        <div class="progress-bar bg-dark" role="progressbar"
+                                                            aria-valuenow="8" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 8%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-danger">
+                                            <span class="fas fa-angle-down"></span>
+                                            <span class="fw-bold">9.30%</span>
+                                        </td>
+                                    </tr>
+                                    <!-- End of Item -->
+
+                                    <!-- Item -->
+                                    <tr>
+                                        <td class="border-0"><a
+                                                href="./dashboard-traffic-sources.html#"
+                                                class="text-primary fw-bold">5</a> </td>
+                                        <td class="bborder-0 fw-bold"><span class="icon icon-xs icon-info w-30"><span
+                                                    class="fab fa-twitter"></span></span> twitter.com</td>
+                                        <td class="border-0">
+                                            Social
+                                        </td>
+                                        <td class="border-0">
+                                            <a class="small fw-bold"
+                                                href="./dashboard-traffic-sources.html#">Social
+                                                Networks</a>
+                                        </td>
+                                        <td class="border-0">
+                                            #4
+                                        </td>
+                                        <td class="border-0">
+                                            <div class="row d-flex align-items-center">
+                                                <div class="col-12 col-xl-2 px-0">
+                                                    <div class="small fw-bold">4%</div>
+                                                </div>
+                                                <div class="col-12 col-xl-10 px-0 px-xl-1">
+                                                    <div class="progress progress-lg mb-0">
+                                                        <div class="progress-bar bg-dark" role="progressbar"
+                                                            aria-valuenow="4" aria-valuemin="0" aria-valuemax="100"
+                                                            style="width: 4%;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="border-0">
+                                            -
+                                        </td>
+                                    </tr>
+                                    <!-- End of Item -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <footer class="footer section py-5">
+            <div class="row">
+                <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+                    <p class="mb-0 text-center text-xl-left">
+                        © <a class="text-primary font-weight-normal" href="https://themesberg.com/"
+                            target="_blank">Themesberg</a>
+                        coded by <a href="https://appseed.us/" target="_blank">AppSeed</a>.
+                    </p>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <!-- List -->
+                    <ul class="list-inline list-group-flush list-group-borderless text-center text-xl-right mb-0">
+                        <li class="list-inline-item px-0 px-sm-2">
+                            <a target="_blank" href="https://themesberg.com/themes">More Templates</a>
+                        </li>
+                        <li class="list-inline-item px-0 px-sm-2">
+                            <a target="_blank" href="https://themesberg.com/blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <!-- Core Libs -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <!-- Plugins -->
+    <script src="./js/on-screen.umd.min.js"></script>
+    <script src="./js/nouislider.min.js"></script>
+    <script src="./js/smooth-scroll.polyfills.min.js"></script>
+    <script src="./js/countUp.umd.js"></script>
+    <script src="./js/chartist.min.js"></script>
+    <script src="./js/chartist-plugin-tooltip.min.js"></script>
+    <script src="./js/datepicker.min.js"></script>
+    <script src="./js/simple-datatables.js"></script>
+    <script src="./js/sweetalert2.all.min.js"></script>
+    <script src="./js/moment.min.js"></script>
+    <script src="./js/datepicker.min.js"></script>
+    <script src="./js/main.min.js"></script>
+    <script src="./js/dropzone.min.js"></script>
+    <script src="./js/choices.min.js"></script>
+    <script src="./js/notyf.min.js"></script>
+    <script src="./js/leaflet.js."></script>
+    <script src="./js/svgMap.min.js"></script>
+    <script src="./js/simplebar.min.js"></script>
+    <script src="./js/Sortable.min.js"></script>
+    <script async="" defer="" src="./js/buttons.js"></script>
+    <!-- Volt PRO -->
+    <script src="./js/volt.js"></script>
+    <!-- Specific Page JS goes HERE  -->
+    <div class="svgMap-tooltip">
+        <div class="svgMap-tooltip-content-wrapper"></div>
+        <div class="svgMap-tooltip-pointer"></div>
+    </div>
+
+</body>
+
+</html>
